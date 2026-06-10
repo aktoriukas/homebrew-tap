@@ -2,7 +2,7 @@ class Afk < Formula
   desc "Autonomous build/validate/review sessions for Claude Code"
   homepage "https://github.com/aktoriukas/afk"
   url "https://github.com/aktoriukas/afk/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "REPLACE_ME_AT_RELEASE"
+  sha256 "6ee0a2a3ac1bb5f39744ba2f29d2e4be1d1471cfdc7a3668680426ae9cd256e5"
   license "MIT"
   head "https://github.com/aktoriukas/afk.git", branch: "main"
 
