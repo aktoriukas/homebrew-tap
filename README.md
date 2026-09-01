@@ -7,6 +7,7 @@ Homebrew tap for [aktoriukas](https://github.com/aktoriukas) tools.
 ```sh
 brew tap aktoriukas/tap
 brew install afk
+brew install agentch
 ```
 
 ## Formulae
@@ -14,6 +15,7 @@ brew install afk
 | Name | Description |
 |---|---|
 | [`afk`](./Formula/afk.rb) | Autonomous build/validate/review sessions for Claude Code. Source: [`aktoriukas/afk`](https://github.com/aktoriukas/afk). |
+| [`agentch`](./Formula/agentch.rb) | macOS notch app tracking live Claude Code and Codex sessions, spend and rate limits. Source: [`aktoriukas/agentch`](https://github.com/aktoriukas/agentch). |
 
 ## Releasing a new version of `afk`
 
@@ -33,3 +35,11 @@ brew install afk
 brew install --HEAD aktoriukas/tap/afk    # installs from main
 brew install --build-from-source ./Formula/afk.rb
 ```
+
+
+## Releasing a new version of `agentch`
+
+Same shape as `afk`, but the formula builds from source rather than installing a script, so the
+user needs macOS 14+ and a Swift 6 toolchain (Xcode or the Command Line Tools). Building locally is
+deliberate: an unsigned app downloaded from a release would be quarantined by Gatekeeper, and one
+compiled on the machine is not.
