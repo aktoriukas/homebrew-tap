@@ -1,8 +1,8 @@
 class Agentch < Formula
   desc "macOS notch app that tracks your Claude Code and Codex sessions"
   homepage "https://github.com/aktoriukas/agentch"
-  url "https://github.com/aktoriukas/agentch/archive/refs/tags/v1.1.1.tar.gz"
-  sha256 "6e11ce308ba6de35ae91bb3ee127670db22aa586b690c6a7c8b6cc88e290562d"
+  url "https://github.com/aktoriukas/agentch/archive/refs/tags/v1.2.0.tar.gz"
+  sha256 "5747bceb7e7b5e58436f9a10555b39cbebbe4dfa6367e973730c395cc05ea8c2"
   license "MIT"
   head "https://github.com/aktoriukas/agentch.git", branch: "main"
 
